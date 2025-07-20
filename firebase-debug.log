@@ -1,0 +1,63 @@
+[debug] [2025-05-30T03:14:46.491Z] ----------------------------------------------------------------------
+[debug] [2025-05-30T03:14:46.497Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\nonno\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-05-30T03:14:46.498Z] CLI Version:   14.5.0
+[debug] [2025-05-30T03:14:46.498Z] Platform:      win32
+[debug] [2025-05-30T03:14:46.498Z] Node Version:  v22.16.0
+[debug] [2025-05-30T03:14:46.499Z] Time:          Thu May 29 2025 20:14:46 GMT-0700 (アメリカ太平洋夏時間)
+[debug] [2025-05-30T03:14:46.499Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-05-30T03:14:46.508Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-05-30T03:14:46.508Z] > authorizing via signed-in user (nonnosuke1031@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Public\Documents\SQA113\password_generator
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-05-30T03:17:20.570Z] Checked if tokens are valid: true, expires at: 1748577874058
+[debug] [2025-05-30T03:17:20.570Z] Checked if tokens are valid: true, expires at: 1748577874058
+[debug] [2025-05-30T03:17:20.572Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-05-30T03:17:21.195Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-05-30T03:17:21.195Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project password-generator-8e5bb (password-generator) 
+[info] 
+=== Hosting Setup
+[debug] [2025-05-30T03:17:25.379Z] Checked if tokens are valid: true, expires at: 1748577874058
+[debug] [2025-05-30T03:17:25.380Z] Checked if tokens are valid: true, expires at: 1748577874058
+[debug] [2025-05-30T03:17:25.380Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/password-generator-8e5bb [none]
+[debug] [2025-05-30T03:17:25.570Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/password-generator-8e5bb 200
+[debug] [2025-05-30T03:17:25.571Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/password-generator-8e5bb {"projectId":"password-generator-8e5bb","projectNumber":"560521387867","displayName":"password-generator","name":"projects/password-generator-8e5bb","resources":{"hostingSite":"password-generator-8e5bb"},"state":"ACTIVE","etag":"1_d81c22a0-80ed-478c-8ae9-41055d568696"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2025-05-30T03:21:09.161Z] ExitPromptError: User force closed the prompt with SIGINT
+    at Interface.sigint (C:\Users\nonno\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\create-prompt.js:101:37)
+    at Interface.emit (node:events:518:28)
+    at Interface.emit (node:domain:489:12)
+    at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1128:18)
+    at ReadStream.onkeypress (node:internal/readline/interface:267:20)
+    at ReadStream.emit (node:events:530:35)
+    at ReadStream.emit (node:domain:489:12)
+    at emitKeys (node:internal/readline/utils:370:14)
+    at emitKeys.next (<anonymous>)
+    at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+[error] 
+[error] Error: An unexpected error has occurred.
